@@ -1,0 +1,19 @@
+# Simple AI Automation Demo
+
+tasks = [
+    "Organize customer data",
+    "Send follow-up email",
+    "Generate daily report",
+    "Monitor workflow status"
+]
+
+def run_automation(task_list):
+    print("Starting AI automation...\n")
+
+    for index, task in enumerate(task_list, start=1):
+        print(f"Task {index}: {task} -> Completed")
+
+    print("\nAutomation finished successfully.")
+
+if __name__ == "__main__":
+    run_automation(tasks)
